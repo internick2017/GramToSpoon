@@ -418,5 +418,50 @@ function formatAmount(value) {
 `;
 fs.writeFileSync(path.join(ROOT, 'js', 'ingredients-data.js'), jsOut, 'utf8');
 console.log('Written js/ingredients-data.js from data/ingredients.json.');
-console.log(`\nDone. Generated ${generatedSlugs.length} conversion pages + 1 index page.`);
+// Generate sitemap.xml
+const SITE_URL = 'https://gramtospoon.nickgranados.com';
+const today = new Date().toISOString().split('T')[0];
+
+let sitemapXml = `<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>${SITE_URL}/index.html</loc>
+    <lastmod>${today}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>${SITE_URL}/conversions/index.html</loc>
+    <lastmod>${today}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+`;
+
+for (const entry of generatedSlugs) {
+  sitemapXml += `  <url>
+    <loc>${SITE_URL}/conversions/${entry.slug}.html</loc>
+    <lastmod>${today}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+`;
+}
+
+sitemapXml += `</urlset>
+`;
+
+fs.writeFileSync(path.join(ROOT, 'sitemap.xml'), sitemapXml, 'utf8');
+console.log(`Written sitemap.xml with ${generatedSlugs.length + 2} URLs.`);
+
+// Generate robots.txt
+const robotsTxt = `User-agent: *
+Allow: /
+
+Sitemap: ${SITE_URL}/sitemap.xml
+`;
+fs.writeFileSync(path.join(ROOT, 'robots.txt'), robotsTxt, 'utf8');
+console.log('Written robots.txt');
+
+console.log(`\nDone. Generated ${generatedSlugs.length} conversion pages + 1 index page + sitemap.xml + robots.txt.`);
 console.log('');
