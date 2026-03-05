@@ -1,0 +1,393 @@
+/* GramToSpoon - Ingredient conversion site - Base styles */
+
+:root {
+  --color-bg: #faf9f6;
+  --color-surface: #fff;
+  --color-text: #1a1a1a;
+  --color-text-muted: #555;
+  --color-accent: #c45c26;
+  --color-accent-hover: #a04a1e;
+  --color-border: #e5e2dc;
+  --font-sans: "DM Sans", system-ui, sans-serif;
+  --font-serif: "Fraunces", Georgia, serif;
+  --shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  --radius: 10px;
+  --max-width: 720px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-sans);
+  background: var(--color-bg);
+  color: var(--color-text);
+  line-height: 1.6;
+  min-height: 100vh;
+}
+
+/* Typography */
+h1 {
+  font-family: var(--font-serif);
+  font-size: clamp(1.75rem, 4vw, 2.25rem);
+  font-weight: 600;
+  line-height: 1.25;
+  margin: 0 0 0.5rem;
+  color: var(--color-text);
+}
+
+h2 {
+  font-family: var(--font-serif);
+  font-size: clamp(1.25rem, 3vw, 1.5rem);
+  font-weight: 600;
+  margin: 2rem 0 0.75rem;
+  color: var(--color-text);
+}
+
+p {
+  margin: 0 0 1rem;
+  color: var(--color-text-muted);
+}
+
+a {
+  color: var(--color-accent);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--color-accent-hover);
+  text-decoration: underline;
+}
+
+/* Layout */
+.container {
+  width: 100%;
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 1rem 1.25rem;
+}
+
+@media (max-width: 360px) {
+  .container {
+    padding: 0.75rem 1rem;
+  }
+}
+
+header {
+  padding: 1.5rem 0;
+  border-bottom: 1px solid var(--color-border);
+}
+
+header a {
+  color: var(--color-text);
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.125rem;
+}
+
+header a:hover {
+  color: var(--color-accent);
+  text-decoration: none;
+}
+
+main {
+  padding: 2rem 0 3rem;
+}
+
+/* Calculator card */
+.calc-card {
+  background: var(--color-surface);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 1.75rem;
+  margin-bottom: 2rem;
+}
+
+.calc-card h2 {
+  margin-top: 0;
+  margin-bottom: 1.25rem;
+}
+
+.calc-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  align-items: flex-end;
+  margin-bottom: 1rem;
+}
+
+.calc-group {
+  flex: 1 1 140px;
+  min-width: 0;
+}
+
+.calc-group label {
+  display: block;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: var(--color-text-muted);
+  margin-bottom: 0.35rem;
+}
+
+.calc-group input,
+.calc-group select {
+  width: 100%;
+  min-height: 44px;
+  padding: 0.6rem 0.75rem;
+  font-size: 1rem;
+  font-family: inherit;
+  border: 1px solid var(--color-border);
+  border-radius: 6px;
+  background: var(--color-surface);
+  color: var(--color-text);
+}
+
+.calc-group input:focus,
+.calc-group select:focus {
+  outline: none;
+  border-color: var(--color-accent);
+  box-shadow: 0 0 0 3px rgba(196, 92, 38, 0.15);
+}
+
+.btn {
+  display: inline-block;
+  min-height: 44px;
+  padding: 0.65rem 1.25rem;
+  font-size: 1rem;
+  font-family: inherit;
+  font-weight: 600;
+  color: #fff;
+  background: var(--color-accent);
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.btn:hover {
+  background: var(--color-accent-hover);
+}
+
+.btn:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(196, 92, 38, 0.3);
+}
+
+/* Result box */
+.result-box {
+  margin-top: 1.25rem;
+  padding: 1rem 1.25rem;
+  background: var(--color-bg);
+  border-radius: 6px;
+  border-left: 4px solid var(--color-accent);
+}
+
+.result-box .result-value {
+  display: block;
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--color-text);
+  margin-bottom: 0.25rem;
+}
+
+.result-box .result-label {
+  display: block;
+  font-size: 0.875rem;
+  color: var(--color-text-muted);
+}
+
+/* Conversion list / quick links */
+.conversion-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.conversion-list li {
+  margin-bottom: 0.5rem;
+}
+
+.conversion-list a {
+  display: block;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid var(--color-border);
+  color: var(--color-text);
+}
+
+.conversion-list a:hover {
+  color: var(--color-accent);
+  border-color: var(--color-accent);
+}
+
+/* Explanation block on conversion pages */
+.explanation {
+  background: var(--color-surface);
+  border-radius: var(--radius);
+  padding: 1.5rem;
+  margin: 1.5rem 0;
+  box-shadow: var(--shadow);
+}
+
+/* Conversion result highlight on detail page */
+.conversion-result {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--color-accent);
+  margin: 0.5rem 0 1rem;
+}
+
+/* Breadcrumb */
+.breadcrumb {
+  font-size: 0.875rem;
+  color: var(--color-text-muted);
+  margin-bottom: 1rem;
+}
+
+.breadcrumb a {
+  color: var(--color-text-muted);
+}
+
+.breadcrumb a:hover {
+  color: var(--color-accent);
+}
+
+/* Footer */
+footer {
+  padding: 2rem 0;
+  border-top: 1px solid var(--color-border);
+  font-size: 0.875rem;
+  color: var(--color-text-muted);
+}
+
+footer a {
+  color: var(--color-text-muted);
+}
+
+footer a:hover {
+  color: var(--color-accent);
+}
+
+/* Ad slots - reserved space for ads (AdSense, etc.) */
+.ad-slot {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 90px;
+  margin: 1.25rem 0;
+  padding: 0.75rem;
+  background: var(--color-bg);
+  border: 1px dashed var(--color-border);
+  border-radius: var(--radius);
+  color: var(--color-text-muted);
+  font-size: 0.8125rem;
+  text-align: center;
+}
+
+.ad-slot--leaderboard {
+  min-height: 90px;
+}
+
+.ad-slot--rectangle {
+  min-height: 250px;
+}
+
+.ad-slot--mobile-banner {
+  min-height: 50px;
+}
+
+@media (min-width: 768px) {
+  .ad-slot--leaderboard {
+    min-height: 90px;
+  }
+
+  .ad-slot--rectangle {
+    min-height: 250px;
+  }
+}
+
+@media (max-width: 767px) {
+  .ad-slot--leaderboard {
+    min-height: 50px;
+  }
+
+  .ad-slot--rectangle {
+    min-height: 250px;
+  }
+}
+
+/* Responsive: mobile first, then tablet and desktop */
+@media (max-width: 480px) {
+  .calc-row {
+    flex-direction: column;
+  }
+
+  .calc-group {
+    flex: 1 1 100%;
+  }
+
+  .calc-card {
+    padding: 1.25rem;
+  }
+
+  main {
+    padding: 1.5rem 0 2rem;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  h2 {
+    font-size: 1.25rem;
+    margin-top: 1.5rem;
+  }
+
+  .conversion-result {
+    font-size: 1.25rem;
+  }
+
+  .explanation {
+    padding: 1.25rem;
+  }
+}
+
+@media (max-width: 767px) {
+  header {
+    padding: 1rem 0;
+  }
+
+  .conversion-list a {
+    padding: 0.6rem 0;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    padding: 1.25rem 1.5rem;
+  }
+}
+
+/* Prevent overflow on very small screens */
+html {
+  overflow-x: hidden;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+img,
+iframe,
+video {
+  max-width: 100%;
+  height: auto;
+}

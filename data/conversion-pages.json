@@ -1,0 +1,22 @@
+[
+  { "grams": 100, "ingredient": "flour", "unit": "cups", "featured": true },
+  { "grams": 200, "ingredient": "flour", "unit": "cups", "featured": true },
+  { "grams": 250, "ingredient": "flour", "unit": "cups", "featured": true },
+  { "grams": 100, "ingredient": "sugar", "unit": "cups", "featured": true },
+  { "grams": 150, "ingredient": "sugar", "unit": "tablespoons", "featured": true },
+  { "grams": 200, "ingredient": "sugar", "unit": "cups", "featured": true },
+  { "grams": 50, "ingredient": "butter", "unit": "tablespoons", "featured": true },
+  { "grams": 100, "ingredient": "butter", "unit": "tablespoons", "featured": true },
+  { "grams": 200, "ingredient": "butter", "unit": "cups", "featured": true },
+  { "grams": 100, "ingredient": "brown-sugar", "unit": "cups", "featured": true },
+  { "grams": 200, "ingredient": "brown-sugar", "unit": "cups", "featured": true },
+  { "grams": 200, "ingredient": "rice", "unit": "cups", "featured": true },
+  { "grams": 250, "ingredient": "milk", "unit": "cups", "featured": true },
+  { "grams": 100, "ingredient": "honey", "unit": "tablespoons", "featured": true },
+  { "grams": 200, "ingredient": "powdered-sugar", "unit": "cups", "featured": true },
+  { "grams": 100, "ingredient": "cocoa-powder", "unit": "cups", "featured": true },
+  { "grams": 150, "ingredient": "olive-oil", "unit": "cups", "featured": true },
+  { "grams": 100, "ingredient": "cream-cheese", "unit": "tablespoons", "featured": true },
+  { "grams": 250, "ingredient": "heavy-cream", "unit": "cups", "featured": true },
+  { "grams": 100, "ingredient": "peanut-butter", "unit": "tablespoons", "featured": true }
+]

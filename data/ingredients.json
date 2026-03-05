@@ -1,0 +1,472 @@
+{
+  "flour": {
+    "name": "All-Purpose Flour",
+    "slug": "flour",
+    "category": "flours",
+    "tier": 1,
+    "gramsPerCup": 120,
+    "gramsPerTbsp": 7.5,
+    "gramsPerTsp": 2.5,
+    "explanationNote": "All-purpose flour can vary by brand; we use the standard 120g per cup (spooned and leveled). Don't scoop directly from the bag — spoon into your cup and level off for consistent results."
+  },
+  "bread-flour": {
+    "name": "Bread Flour",
+    "slug": "bread-flour",
+    "category": "flours",
+    "tier": 2,
+    "gramsPerCup": 127,
+    "gramsPerTbsp": 7.9,
+    "gramsPerTsp": 2.6,
+    "explanationNote": "Bread flour is slightly denser than all-purpose flour due to its higher protein content. Spoon and level for best accuracy."
+  },
+  "cake-flour": {
+    "name": "Cake Flour",
+    "slug": "cake-flour",
+    "category": "flours",
+    "tier": 2,
+    "gramsPerCup": 114,
+    "gramsPerTbsp": 7.1,
+    "gramsPerTsp": 2.4,
+    "explanationNote": "Cake flour is lighter and finer than all-purpose. It weighs about 114g per cup when spooned and leveled."
+  },
+  "whole-wheat-flour": {
+    "name": "Whole Wheat Flour",
+    "slug": "whole-wheat-flour",
+    "category": "flours",
+    "tier": 2,
+    "gramsPerCup": 128,
+    "gramsPerTbsp": 8.0,
+    "gramsPerTsp": 2.7,
+    "explanationNote": "Whole wheat flour is denser than white flours because it contains the bran and germ. Spoon and level for accuracy."
+  },
+  "almond-flour": {
+    "name": "Almond Flour",
+    "slug": "almond-flour",
+    "category": "flours",
+    "tier": 2,
+    "gramsPerCup": 96,
+    "gramsPerTbsp": 6.0,
+    "gramsPerTsp": 2.0,
+    "explanationNote": "Almond flour (blanched, finely ground) is lighter than wheat flours. Pack gently — don't compress — when measuring by cup."
+  },
+  "coconut-flour": {
+    "name": "Coconut Flour",
+    "slug": "coconut-flour",
+    "category": "flours",
+    "tier": 3,
+    "gramsPerCup": 128,
+    "gramsPerTbsp": 8.0,
+    "gramsPerTsp": 2.7,
+    "explanationNote": "Coconut flour is very absorbent — you typically need much less than wheat flour. It weighs about 128g per cup."
+  },
+  "self-rising-flour": {
+    "name": "Self-Rising Flour",
+    "slug": "self-rising-flour",
+    "category": "flours",
+    "tier": 3,
+    "gramsPerCup": 125,
+    "gramsPerTbsp": 7.8,
+    "gramsPerTsp": 2.6,
+    "explanationNote": "Self-rising flour includes baking powder and salt. It weighs about 125g per cup, similar to all-purpose flour."
+  },
+  "sugar": {
+    "name": "Granulated Sugar",
+    "slug": "sugar",
+    "category": "sugars",
+    "tier": 1,
+    "gramsPerCup": 200,
+    "gramsPerTbsp": 12.5,
+    "gramsPerTsp": 4.2,
+    "explanationNote": "Granulated white sugar has a density of about 12.5 grams per tablespoon. Use level tablespoons (not heaped) for best accuracy."
+  },
+  "brown-sugar": {
+    "name": "Brown Sugar",
+    "slug": "brown-sugar",
+    "category": "sugars",
+    "tier": 1,
+    "gramsPerCup": 220,
+    "gramsPerTbsp": 13.8,
+    "gramsPerTsp": 4.6,
+    "explanationNote": "Brown sugar is typically measured packed. One packed cup weighs about 220g. Light and dark brown sugar weigh the same."
+  },
+  "powdered-sugar": {
+    "name": "Powdered Sugar",
+    "slug": "powdered-sugar",
+    "category": "sugars",
+    "tier": 1,
+    "gramsPerCup": 120,
+    "gramsPerTbsp": 7.5,
+    "gramsPerTsp": 2.5,
+    "explanationNote": "Powdered (confectioners') sugar is very light and fluffy. Sift before measuring for consistent results — one unsifted cup is about 120g."
+  },
+  "honey": {
+    "name": "Honey",
+    "slug": "honey",
+    "category": "sugars",
+    "tier": 1,
+    "gramsPerCup": 340,
+    "gramsPerTbsp": 21.3,
+    "gramsPerTsp": 7.1,
+    "explanationNote": "Honey is dense and sticky. One tablespoon weighs about 21g. Spray your measuring spoon with oil first so the honey slides off easily."
+  },
+  "maple-syrup": {
+    "name": "Maple Syrup",
+    "slug": "maple-syrup",
+    "category": "sugars",
+    "tier": 2,
+    "gramsPerCup": 315,
+    "gramsPerTbsp": 19.7,
+    "gramsPerTsp": 6.6,
+    "explanationNote": "Pure maple syrup is slightly less dense than honey. Use a liquid measuring cup for larger amounts."
+  },
+  "coconut-sugar": {
+    "name": "Coconut Sugar",
+    "slug": "coconut-sugar",
+    "category": "sugars",
+    "tier": 3,
+    "gramsPerCup": 180,
+    "gramsPerTbsp": 11.3,
+    "gramsPerTsp": 3.8,
+    "explanationNote": "Coconut sugar has a coarser texture than white sugar. It weighs about 180g per cup — a bit lighter than granulated."
+  },
+  "butter": {
+    "name": "Butter",
+    "slug": "butter",
+    "category": "dairy",
+    "tier": 1,
+    "gramsPerCup": 227,
+    "gramsPerTbsp": 14.2,
+    "gramsPerTsp": 4.7,
+    "explanationNote": "One standard stick of butter is 113g (1/2 cup or 8 tablespoons). Use the markings on the wrapper for easy measuring."
+  },
+  "milk": {
+    "name": "Milk",
+    "slug": "milk",
+    "category": "dairy",
+    "tier": 1,
+    "gramsPerCup": 245,
+    "gramsPerTbsp": 15.3,
+    "gramsPerTsp": 5.1,
+    "explanationNote": "Whole milk; skim and low-fat milk have very similar density. Use a liquid measuring cup for accuracy."
+  },
+  "heavy-cream": {
+    "name": "Heavy Cream",
+    "slug": "heavy-cream",
+    "category": "dairy",
+    "tier": 2,
+    "gramsPerCup": 238,
+    "gramsPerTbsp": 14.9,
+    "gramsPerTsp": 5.0,
+    "explanationNote": "Heavy cream (heavy whipping cream) is slightly lighter than milk by volume due to its fat content."
+  },
+  "cream-cheese": {
+    "name": "Cream Cheese",
+    "slug": "cream-cheese",
+    "category": "dairy",
+    "tier": 3,
+    "gramsPerCup": 232,
+    "gramsPerTbsp": 14.5,
+    "gramsPerTsp": 4.8,
+    "explanationNote": "Cream cheese density can vary by brand. One standard block (8 oz) is about 226g. Soften before measuring by volume."
+  },
+  "sour-cream": {
+    "name": "Sour Cream",
+    "slug": "sour-cream",
+    "category": "dairy",
+    "tier": 3,
+    "gramsPerCup": 230,
+    "gramsPerTbsp": 14.4,
+    "gramsPerTsp": 4.8,
+    "explanationNote": "Sour cream weighs about 230g per cup. Stir gently before measuring for a consistent scoop."
+  },
+  "yogurt": {
+    "name": "Yogurt",
+    "slug": "yogurt",
+    "category": "dairy",
+    "tier": 3,
+    "gramsPerCup": 245,
+    "gramsPerTbsp": 15.3,
+    "gramsPerTsp": 5.1,
+    "explanationNote": "Plain yogurt (regular or Greek) weighs about 245g per cup, similar to milk. Greek yogurt may be slightly denser."
+  },
+  "condensed-milk": {
+    "name": "Condensed Milk",
+    "slug": "condensed-milk",
+    "category": "dairy",
+    "tier": 3,
+    "gramsPerCup": 306,
+    "gramsPerTbsp": 19.1,
+    "gramsPerTsp": 6.4,
+    "explanationNote": "Sweetened condensed milk is thick and heavy at about 306g per cup. One standard can (14 oz) is about 397g."
+  },
+  "olive-oil": {
+    "name": "Olive Oil",
+    "slug": "olive-oil",
+    "category": "oils",
+    "tier": 2,
+    "gramsPerCup": 216,
+    "gramsPerTbsp": 13.5,
+    "gramsPerTsp": 4.5,
+    "explanationNote": "Olive oil is lighter than water — about 13.5g per tablespoon. Use a liquid measuring cup for larger amounts."
+  },
+  "vegetable-oil": {
+    "name": "Vegetable Oil",
+    "slug": "vegetable-oil",
+    "category": "oils",
+    "tier": 3,
+    "gramsPerCup": 218,
+    "gramsPerTbsp": 13.6,
+    "gramsPerTsp": 4.5,
+    "explanationNote": "Vegetable oil (canola, sunflower, etc.) weighs about 218g per cup. Most neutral cooking oils have similar density."
+  },
+  "coconut-oil": {
+    "name": "Coconut Oil",
+    "slug": "coconut-oil",
+    "category": "oils",
+    "tier": 3,
+    "gramsPerCup": 218,
+    "gramsPerTbsp": 13.6,
+    "gramsPerTsp": 4.5,
+    "explanationNote": "Coconut oil is solid at room temperature. Melt it first for accurate measuring by volume, or weigh for best results."
+  },
+  "lard": {
+    "name": "Lard",
+    "slug": "lard",
+    "category": "oils",
+    "tier": 3,
+    "gramsPerCup": 205,
+    "gramsPerTbsp": 12.8,
+    "gramsPerTsp": 4.3,
+    "explanationNote": "Lard is slightly lighter than butter. Soften to room temperature before measuring by volume for consistency."
+  },
+  "rice": {
+    "name": "Rice",
+    "slug": "rice",
+    "category": "grains",
+    "tier": 2,
+    "gramsPerCup": 185,
+    "gramsPerTbsp": 11.5,
+    "gramsPerTsp": 3.8,
+    "explanationNote": "Uncooked long-grain white rice; short-grain and brown rice may differ slightly. Always measure before cooking."
+  },
+  "rolled-oats": {
+    "name": "Rolled Oats",
+    "slug": "rolled-oats",
+    "category": "grains",
+    "tier": 3,
+    "gramsPerCup": 90,
+    "gramsPerTbsp": 5.6,
+    "gramsPerTsp": 1.9,
+    "explanationNote": "Old-fashioned rolled oats are light and airy at about 90g per cup. Quick oats are slightly denser."
+  },
+  "cornstarch": {
+    "name": "Cornstarch",
+    "slug": "cornstarch",
+    "category": "grains",
+    "tier": 3,
+    "gramsPerCup": 128,
+    "gramsPerTbsp": 8.0,
+    "gramsPerTsp": 2.7,
+    "explanationNote": "Cornstarch (cornflour in the UK) is very fine and powdery. Spoon into your measuring cup and level off — don't pack."
+  },
+  "breadcrumbs": {
+    "name": "Breadcrumbs",
+    "slug": "breadcrumbs",
+    "category": "grains",
+    "tier": 3,
+    "gramsPerCup": 108,
+    "gramsPerTbsp": 6.8,
+    "gramsPerTsp": 2.3,
+    "explanationNote": "Dry breadcrumbs weigh about 108g per cup. Panko breadcrumbs are lighter; fresh breadcrumbs are heavier."
+  },
+  "cornmeal": {
+    "name": "Cornmeal",
+    "slug": "cornmeal",
+    "category": "grains",
+    "tier": 3,
+    "gramsPerCup": 157,
+    "gramsPerTbsp": 9.8,
+    "gramsPerTsp": 3.3,
+    "explanationNote": "Medium-grind yellow cornmeal weighs about 157g per cup. Fine-grind cornmeal may be slightly denser."
+  },
+  "quinoa": {
+    "name": "Quinoa",
+    "slug": "quinoa",
+    "category": "grains",
+    "tier": 3,
+    "gramsPerCup": 170,
+    "gramsPerTbsp": 10.6,
+    "gramsPerTsp": 3.5,
+    "explanationNote": "Uncooked quinoa weighs about 170g per cup. Rinse before cooking to remove the bitter saponin coating."
+  },
+  "couscous": {
+    "name": "Couscous",
+    "slug": "couscous",
+    "category": "grains",
+    "tier": 3,
+    "gramsPerCup": 173,
+    "gramsPerTbsp": 10.8,
+    "gramsPerTsp": 3.6,
+    "explanationNote": "Uncooked regular couscous weighs about 173g per cup. Israeli (pearl) couscous is heavier."
+  },
+  "almonds": {
+    "name": "Almonds",
+    "slug": "almonds",
+    "category": "nuts",
+    "tier": 3,
+    "gramsPerCup": 143,
+    "gramsPerTbsp": 8.9,
+    "gramsPerTsp": 3.0,
+    "explanationNote": "Whole almonds weigh about 143g per cup. Sliced or slivered almonds are lighter per cup due to air gaps."
+  },
+  "walnuts": {
+    "name": "Walnuts",
+    "slug": "walnuts",
+    "category": "nuts",
+    "tier": 3,
+    "gramsPerCup": 120,
+    "gramsPerTbsp": 7.5,
+    "gramsPerTsp": 2.5,
+    "explanationNote": "Chopped walnuts weigh about 120g per cup. Halves will weigh slightly less per cup due to irregular shapes."
+  },
+  "peanut-butter": {
+    "name": "Peanut Butter",
+    "slug": "peanut-butter",
+    "category": "nuts",
+    "tier": 2,
+    "gramsPerCup": 258,
+    "gramsPerTbsp": 16.1,
+    "gramsPerTsp": 5.4,
+    "explanationNote": "Peanut butter is dense — about 16g per tablespoon. Stir natural peanut butter well before measuring."
+  },
+  "chia-seeds": {
+    "name": "Chia Seeds",
+    "slug": "chia-seeds",
+    "category": "nuts",
+    "tier": 3,
+    "gramsPerCup": 163,
+    "gramsPerTbsp": 10.2,
+    "gramsPerTsp": 3.4,
+    "explanationNote": "Chia seeds weigh about 163g per cup. They absorb many times their weight in liquid, so measure before soaking."
+  },
+  "flax-seeds": {
+    "name": "Flax Seeds",
+    "slug": "flax-seeds",
+    "category": "nuts",
+    "tier": 3,
+    "gramsPerCup": 150,
+    "gramsPerTbsp": 9.4,
+    "gramsPerTsp": 3.1,
+    "explanationNote": "Whole flax seeds weigh about 150g per cup. Ground flaxseed (flax meal) is lighter per cup."
+  },
+  "sesame-seeds": {
+    "name": "Sesame Seeds",
+    "slug": "sesame-seeds",
+    "category": "nuts",
+    "tier": 3,
+    "gramsPerCup": 144,
+    "gramsPerTbsp": 9.0,
+    "gramsPerTsp": 3.0,
+    "explanationNote": "Sesame seeds (white or black, unhulled) weigh about 144g per cup."
+  },
+  "sunflower-seeds": {
+    "name": "Sunflower Seeds",
+    "slug": "sunflower-seeds",
+    "category": "nuts",
+    "tier": 3,
+    "gramsPerCup": 140,
+    "gramsPerTbsp": 8.8,
+    "gramsPerTsp": 2.9,
+    "explanationNote": "Shelled sunflower seed kernels weigh about 140g per cup."
+  },
+  "cocoa-powder": {
+    "name": "Cocoa Powder",
+    "slug": "cocoa-powder",
+    "category": "chocolate",
+    "tier": 2,
+    "gramsPerCup": 86,
+    "gramsPerTbsp": 5.4,
+    "gramsPerTsp": 1.8,
+    "explanationNote": "Unsweetened cocoa powder is very light — only about 86g per cup. Sift before measuring to remove lumps."
+  },
+  "chocolate-chips": {
+    "name": "Chocolate Chips",
+    "slug": "chocolate-chips",
+    "category": "chocolate",
+    "tier": 2,
+    "gramsPerCup": 170,
+    "gramsPerTbsp": 10.6,
+    "gramsPerTsp": 3.5,
+    "explanationNote": "Standard semi-sweet chocolate chips weigh about 170g per cup. Mini chips pack more densely per cup."
+  },
+  "salt": {
+    "name": "Salt",
+    "slug": "salt",
+    "category": "spices",
+    "tier": 4,
+    "gramsPerCup": 288,
+    "gramsPerTbsp": 18.0,
+    "gramsPerTsp": 6.0,
+    "explanationNote": "Table salt (fine) weighs about 6g per teaspoon. Kosher salt is lighter per teaspoon — roughly 3-5g depending on brand."
+  },
+  "baking-powder": {
+    "name": "Baking Powder",
+    "slug": "baking-powder",
+    "category": "spices",
+    "tier": 4,
+    "gramsPerCup": 221,
+    "gramsPerTbsp": 13.8,
+    "gramsPerTsp": 4.6,
+    "explanationNote": "Baking powder weighs about 4.6g per teaspoon. Check the expiration date — old baking powder loses its leavening power."
+  },
+  "baking-soda": {
+    "name": "Baking Soda",
+    "slug": "baking-soda",
+    "category": "spices",
+    "tier": 4,
+    "gramsPerCup": 288,
+    "gramsPerTbsp": 18.0,
+    "gramsPerTsp": 6.0,
+    "explanationNote": "Baking soda (sodium bicarbonate) is denser than baking powder at about 6g per teaspoon. A little goes a long way."
+  },
+  "cinnamon": {
+    "name": "Cinnamon",
+    "slug": "cinnamon",
+    "category": "spices",
+    "tier": 4,
+    "gramsPerCup": 125,
+    "gramsPerTbsp": 7.8,
+    "gramsPerTsp": 2.6,
+    "explanationNote": "Ground cinnamon weighs about 2.6g per teaspoon. Use level teaspoons for consistent flavor."
+  },
+  "vanilla-extract": {
+    "name": "Vanilla Extract",
+    "slug": "vanilla-extract",
+    "category": "spices",
+    "tier": 4,
+    "gramsPerCup": 208,
+    "gramsPerTbsp": 13.0,
+    "gramsPerTsp": 4.3,
+    "explanationNote": "Vanilla extract is a liquid with a density close to water. One teaspoon weighs about 4.3g."
+  },
+  "cream-of-tartar": {
+    "name": "Cream of Tartar",
+    "slug": "cream-of-tartar",
+    "category": "spices",
+    "tier": 4,
+    "gramsPerCup": 144,
+    "gramsPerTbsp": 9.0,
+    "gramsPerTsp": 3.0,
+    "explanationNote": "Cream of tartar (potassium bitartrate) weighs about 3g per teaspoon. It stabilizes egg whites and activates baking soda."
+  },
+  "water": {
+    "name": "Water",
+    "slug": "water",
+    "category": "liquids",
+    "tier": 3,
+    "gramsPerCup": 237,
+    "gramsPerTbsp": 14.8,
+    "gramsPerTsp": 4.9,
+    "explanationNote": "Water weighs about 237g per US cup (slightly less than 250ml). Use a liquid measuring cup for accuracy."
+  }
+}

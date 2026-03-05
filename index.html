@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Convert grams to cups, tablespoons, and teaspoons for 47 ingredients — flour, sugar, butter, honey, cocoa, oats, spices and more. Fast, free cooking measurement converter with 400+ prebuilt conversion pages.">
+  <meta name="keywords" content="grams to tablespoons, grams to cups, grams to teaspoons, cooking conversion, ingredient conversion, baking measurements, flour sugar butter honey">
+  <title>Grams to Cups, Tablespoons &amp; Teaspoons – Ingredient Conversion Calculator</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Fraunces:ital,wght@0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "GramToSpoon Ingredient Conversion",
+    "description": "Convert cooking measurements: grams to cups, tablespoons, and teaspoons for common ingredients.",
+    "applicationCategory": "UtilitiesApplication",
+    "operatingSystem": "Any"
+  }
+  </script>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <a href="index.html">GramToSpoon</a>
+    </header>
+
+    <main>
+      <div class="ad-slot ad-slot--leaderboard" data-ad-slot="top" aria-label="Advertisement">
+        <!-- Ad: leaderboard 728x90 (desktop) / banner 320x50 (mobile) -->
+      </div>
+
+      <h1>Ingredient Measurement Converter</h1>
+      <p>Convert grams to cups, tablespoons, or teaspoons for 47 cooking ingredients — flours, sugars, dairy, oils, grains, nuts, spices and more. Use the calculator below or browse conversion pages.</p>
+
+      <section class="calc-card" aria-labelledby="calc-heading">
+        <h2 id="calc-heading">Conversion Calculator</h2>
+        <form id="conversion-calculator">
+          <div class="calc-row">
+            <div class="calc-group">
+              <label for="grams-input">Grams</label>
+              <input type="number" id="grams-input" name="grams" min="0" step="1" placeholder="e.g. 150" value="150" inputmode="numeric">
+            </div>
+            <div class="calc-group">
+              <label for="ingredient">Ingredient</label>
+              <select id="ingredient" name="ingredient" aria-label="Select ingredient"></select>
+            </div>
+            <div class="calc-group">
+              <label for="convert-to-unit">Convert to</label>
+              <select id="convert-to-unit" name="unit" aria-label="Convert to unit"></select>
+            </div>
+            <div class="calc-group">
+              <label>&nbsp;</label>
+              <button type="submit" class="btn">Convert</button>
+            </div>
+          </div>
+          <div id="calculator-result" class="result-box" role="status" aria-live="polite">
+            <span class="result-label">Enter grams and optionally change ingredient/unit.</span>
+          </div>
+        </form>
+      </section>
+
+      <div class="ad-slot ad-slot--rectangle" data-ad-slot="mid-content" aria-label="Advertisement">
+        <!-- Ad: medium rectangle 300x250 -->
+      </div>
+
+      <h2>Popular Conversions</h2>
+      <p>Quick links to SEO-friendly conversion pages. Bookmark or share any page.</p>
+      <ul class="conversion-list">
+        <!-- CONVERSION_LINKS_START -->
+        <li><a href="conversions/100-grams-flour-to-cups.html">100 grams of all-purpose flour to cups</a></li>
+        <li><a href="conversions/200-grams-flour-to-cups.html">200 grams of all-purpose flour to cups</a></li>
+        <li><a href="conversions/250-grams-flour-to-cups.html">250 grams of all-purpose flour to cups</a></li>
+        <li><a href="conversions/100-grams-sugar-to-cups.html">100 grams of granulated sugar to cups</a></li>
+        <li><a href="conversions/150-grams-sugar-to-tablespoons.html">150 grams of granulated sugar to tablespoons</a></li>
+        <li><a href="conversions/200-grams-sugar-to-cups.html">200 grams of granulated sugar to cups</a></li>
+        <li><a href="conversions/100-grams-brown-sugar-to-cups.html">100 grams of brown sugar to cups</a></li>
+        <li><a href="conversions/200-grams-brown-sugar-to-cups.html">200 grams of brown sugar to cups</a></li>
+        <li><a href="conversions/200-grams-powdered-sugar-to-cups.html">200 grams of powdered sugar to cups</a></li>
+        <li><a href="conversions/100-grams-honey-to-tablespoons.html">100 grams of honey to tablespoons</a></li>
+        <li><a href="conversions/50-grams-butter-to-tablespoons.html">50 grams of butter to tablespoons</a></li>
+        <li><a href="conversions/100-grams-butter-to-tablespoons.html">100 grams of butter to tablespoons</a></li>
+        <li><a href="conversions/200-grams-butter-to-cups.html">200 grams of butter to cups</a></li>
+        <li><a href="conversions/250-grams-milk-to-cups.html">250 grams of milk to cups</a></li>
+        <li><a href="conversions/250-grams-heavy-cream-to-cups.html">250 grams of heavy cream to cups</a></li>
+        <li><a href="conversions/100-grams-cream-cheese-to-tablespoons.html">100 grams of cream cheese to tablespoons</a></li>
+        <li><a href="conversions/150-grams-olive-oil-to-cups.html">150 grams of olive oil to cups</a></li>
+        <li><a href="conversions/200-grams-rice-to-cups.html">200 grams of rice to cups</a></li>
+        <li><a href="conversions/100-grams-peanut-butter-to-tablespoons.html">100 grams of peanut butter to tablespoons</a></li>
+        <li><a href="conversions/100-grams-cocoa-powder-to-cups.html">100 grams of cocoa powder to cups</a></li>
+      <!-- CONVERSION_LINKS_END -->
+      </ul>
+      <p><a href="conversions/index.html">View all 400+ conversions &rarr;</a></p>
+
+      <h2>Supported Ingredients</h2>
+      <p>We support 47 ingredients across 9 categories: <strong>flours</strong> (all-purpose, bread, cake, whole wheat, almond, coconut, self-rising), <strong>sugars</strong> (granulated, brown, powdered, honey, maple syrup, coconut sugar), <strong>dairy</strong> (butter, milk, heavy cream, cream cheese, sour cream, yogurt, condensed milk), <strong>oils</strong> (olive, vegetable, coconut, lard), <strong>grains</strong> (rice, oats, cornstarch, breadcrumbs, cornmeal, quinoa, couscous), <strong>nuts &amp; seeds</strong> (almonds, walnuts, peanut butter, chia, flax, sesame, sunflower), <strong>chocolate</strong> (cocoa powder, chocolate chips), <strong>baking &amp; spices</strong> (salt, baking powder, baking soda, cinnamon, vanilla extract, cream of tartar), and <strong>water</strong>. Values are approximate; density can vary by brand and packing. Use the calculator for any amount.</p>
+
+      <div class="ad-slot ad-slot--leaderboard" data-ad-slot="bottom" aria-label="Advertisement">
+        <!-- Ad: leaderboard / banner -->
+      </div>
+    </main>
+
+    <footer>
+      <p>GramToSpoon — Simple gram to cups, tablespoons &amp; teaspoons conversions for cooking.</p>
+    </footer>
+  </div>
+
+  <script src="js/ingredients-data.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
