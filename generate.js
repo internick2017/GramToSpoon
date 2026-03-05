@@ -156,10 +156,6 @@ function renderConversionPage(opts) {
         <p class="result-label">${escapeHtml(resultLabel)}</p>
       </div>
 
-      <div class="ad-slot ad-slot--rectangle" data-ad-slot="after-result" aria-label="Advertisement">
-        <script>(function(s){s.dataset.zone='10687186',s.src='https://nap5k.com/tag.min.js'})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement('script')))</script>
-      </div>
-
       <section class="explanation" aria-labelledby="explanation-heading">
         <h2 id="explanation-heading">${escapeHtml(explanationHeading)}</h2>
         <p>${explanationParagraph1}</p>
@@ -174,15 +170,14 @@ function renderConversionPage(opts) {
         <li><a href="index.html">All conversions</a></li>
       </ul>
 
-      <div class="ad-slot ad-slot--leaderboard" data-ad-slot="bottom" aria-label="Advertisement">
-        <script>(function(s){s.dataset.zone='10687186',s.src='https://nap5k.com/tag.min.js'})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement('script')))</script>
-      </div>
     </main>
 
     <footer>
       <p><a href="../index.html">GramToSpoon</a> — Simple gram to cups, tablespoons &amp; teaspoons conversions for cooking.</p>
     </footer>
   </div>
+  <script>(function(s){s.dataset.zone='10687186',s.src='https://nap5k.com/tag.min.js'})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement('script')))</script>
+  <script>(function(s){s.dataset.zone='10687272',s.src='https://nap5k.com/tag.min.js'})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement('script')))</script>
 </body>
 </html>
 `;
@@ -304,20 +299,15 @@ function renderAllConversionsPage(allSlugs) {
       <h1>All Cooking Conversions</h1>
       <p>Browse all ${totalCount} gram-to-spoon conversions for 47 ingredients, organized by category. Or use the <a href="../index.html">calculator</a> for any custom amount.</p>
 
-      <div class="ad-slot ad-slot--leaderboard" data-ad-slot="top" aria-label="Advertisement">
-        <script>(function(s){s.dataset.zone='10687186',s.src='https://nap5k.com/tag.min.js'})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement('script')))</script>
-      </div>
       ${sectionsHtml}
-
-      <div class="ad-slot ad-slot--leaderboard" data-ad-slot="bottom" aria-label="Advertisement">
-        <script>(function(s){s.dataset.zone='10687186',s.src='https://nap5k.com/tag.min.js'})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement('script')))</script>
-      </div>
     </main>
 
     <footer>
       <p><a href="../index.html">GramToSpoon</a> — Simple gram to cups, tablespoons &amp; teaspoons conversions for cooking.</p>
     </footer>
   </div>
+  <script>(function(s){s.dataset.zone='10687186',s.src='https://nap5k.com/tag.min.js'})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement('script')))</script>
+  <script>(function(s){s.dataset.zone='10687272',s.src='https://nap5k.com/tag.min.js'})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement('script')))</script>
 </body>
 </html>
 `;
