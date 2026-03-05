@@ -183,6 +183,7 @@ function renderConversionPage(opts) {
       <p><a href="../index.html">GramToSpoon</a> — Simple gram to cups, tablespoons &amp; teaspoons conversions for cooking.</p>
     </footer>
   </div>
+  <script src="https://quge5.com/88/tag.min.js" data-zone="216736" async data-cfasync="false"></script>
 </body>
 </html>
 `;
@@ -318,6 +319,7 @@ function renderAllConversionsPage(allSlugs) {
       <p><a href="../index.html">GramToSpoon</a> — Simple gram to cups, tablespoons &amp; teaspoons conversions for cooking.</p>
     </footer>
   </div>
+  <script src="https://quge5.com/88/tag.min.js" data-zone="216736" async data-cfasync="false"></script>
 </body>
 </html>
 `;

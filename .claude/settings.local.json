@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node generate.js:*)",
+      "Bash(git commit:*)",
+      "Bash(powershell -Command \"Compress-Archive -Path ''index.html'',''generate.js'',''css'',''js'',''conversions'',''data'',''README.md'',''ADS.md'' -DestinationPath ''GramToSpoon.zip'' -Force\")"
+    ]
+  }
+}
